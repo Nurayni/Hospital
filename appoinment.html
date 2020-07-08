@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Appoinment</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!--header-->
+    <section class="header-logo-wrapper-four">
+        <!--nav-->
+        <section class="background">
+            <div class="content">
+                <ul id="menu" class="exo-menu-six">
+                    <li><a class="" href="index.html"><i class="fa fa-home"></i>Home</a></li>
+                    <li class="drop-down"><a href="#"><i class="fa fa-cogs"></i>Services</a>
+                        <!--Drop Down-->
+                        <ul class="drop-down-ul animated fadeIn">
+                            <li class="flyout-right"><a href="service1.html">Service page #1</a>
+                                <li class="flyout-right"><a href="#">Stuff</a>
+                                    <!--Flyout Right-->
+                                    <ul class="animated fadeIn">
+                                        <li><a href="#">Stuff Information</a></li>
+                                        <li><a href="#">Working Hour</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="flyout-left"><a href="#">Price</a>
+                                    <!--Flyout Left-->
+                                    <ul class="animated fadeIn">
+                                        <li><a href="#">Price package #1</a></li>
+                                        <li><a href="#">Price package #2</a></li>
+                                    </ul>
+                                </li>
+                        </ul>
+                        <!--//End drop down-->
+
+                        </li>
+                        <li><a class="" href="depament.html"><i class="fas fa-building"></i>Our Departments</a></li>
+                        <li><a href="about.html"><i class="fa fa-briefcase"></i>About</a></li>
+                        <li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a>
+                        </li>
+                </ul>
+            </div>
+        </section>
+        <!--nav-end-->
+        <!--content-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">Appoinment</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--header end-->
+
+    <!--banner-->
+    <section class="banner-wrapper-three">
+        <div class="container">
+            <div class="row">
+                <!-- SERVICE DETAILS -->
+                <div class="col-lg-8">
+                    <div class="txt-block pr-30">
+                        <!-- Title -->
+                        <h3 class="h3-md steelblue-color">Book an Appointment</h3>
+                        <!-- Text -->
+                        <p>Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor tempus feugiat dolor lacinia cubilia curae integer congue leo metus, primis in orci integer metus mollis faucibus enim. Nemo ipsam egestas volute turpis dolores
+                            ut aliquam quaerat sodales sapien undo pretium purus feugiat dolor impedit magna purus pretium gravida donec ligula massa gravida donec pretium
+                        </p>
+                        <!-- APPOINTMENT FORM -->
+                        <div id="appointment-form-holder" class="text-center">
+                            <form name="appointmentform" class="row appointment-form" novalidate="novalidate">
+
+                                <!-- Form Select -->
+                                <div id="input-department" class="col-md-12 input-department">
+                                    <select id="inlineFormCustomSelect1" name="department" class="custom-select department" required="">
+                                                   <option value="">Select Department</option>  
+                                                     <option>Pediatrics Department</option>
+                                                     <option>Neurology Department</option>
+                                                     <option>Haematology Department</option>
+                                                     <option>X-Ray Diagnostic Department</option>
+                                                     <option>Cardiology Department</option>
+                                                     <option>MRI Department</option>
+                                                     <option>Laboratory Services</option>
+                                                     <option>Other</option>
+                                               </select>
+                                </div>
+                                <!-- Form Select -->
+                                <div id="input-doctor" class="col-md-12 input-doctor">
+                                    <select id="inlineFormCustomSelect2" name="doctor" class="custom-select doctor" required="">
+                                                   <option value="">Select Doctor</option>  
+                                                     <option>Jonathan Barnes D.M.</option>
+                                                     <option>Hannah Harper D.M.</option>
+                                                     <option>Matthew Anderson D.M.</option>
+                                                     <option>Megan Coleman D.M.</option>
+                                                     <option>Joshua Elledge D.M.</option>
+                                                     <option>Other</option>
+                                               </select>
+                                </div>
+                                <!-- Form Select -->
+                                <div id="input-patient" class="col-md-12 input-patient">
+                                    <select id="inlineFormCustomSelect3" name="patient" class="custom-select patient" required="">
+                                                   <option value="">Have You Visited Us Before?*</option>
+                                                   <option>New Patient</option>
+                                                   <option>Returning Patient</option>
+                                                   <option>Other</option>
+                                               </select>
+                                </div>
+                                <!-- Contact Form Input -->
+                                <div id="input-date" class="col-lg-12">
+                                    <input id="datetimepicker" type="text" name="date" class="form-control date" placeholder="Appointment Date" required="">
+                                </div>
+
+                                <!-- Contact Form Input -->
+                                <div id="input-name" class="col-lg-12">
+                                    <input type="text" name="name" class="form-control name" placeholder="Enter Your Name*" required="">
+                                </div>
+
+                                <div id="input-email" class="col-lg-12">
+                                    <input type="text" name="email" class="form-control email" placeholder="Enter Your Email*" required="">
+                                </div>
+
+                                <div id="input-phone" class="col-lg-12">
+                                    <input type="tel" name="phone" class="form-control phone" placeholder="Enter Your Phone Number*" required="">
+                                </div>
+
+                                <div id="input-message" class="col-lg-12 input-message">
+                                    <textarea class="form-control message" name="message" rows="6" placeholder="Your Message ..."></textarea>
+                                </div>
+                                <!-- Contact Form Button -->
+                                <div class="col-lg-12 form-btn">
+                                    <button type="submit" class="btn btn-blue blue-hover submit">Request an Appointment</button>
+                                </div>
+                                <!-- Contact Form Message -->
+                                <div class="col-lg-12 appointment-form-msg text-center">
+                                    <div class="sending-msg"><span class="loading"></span></div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- END APPOINTMENT FORM -->
+                        <!-- Text -->
+                        <p class="p-sm grey-color mb-30">* Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor tempus feugiat dolor lacinia cubilia curae integer congue leo metus, primis in orci integer metus mollis faucibus enim. Nemo ipsam egestas volute turpis
+                            dolores ut aliquam quaerat sodales sapien undo pretium purus
+                        </p>
+                    </div>
+                </div>
+                <!-- END SERVICE DETAILS -->
+                <!-- SIDEBAR -->
+                <aside id="sidebar" class="col-lg-4">
+                    <!-- TEXT WIDGET -->
+                    <div id="txt-widget" class="sidebar-div mb-50">
+
+                        <!-- Title -->
+                        <h5 class="h5-sm steelblue-color">The Heart Of Clinic</h5>
+
+                        <!-- Head of Clinic -->
+                        <div class="txt-widget-unit mb-15 clearfix d-flex align-items-center">
+
+                            <!-- Avatar -->
+                            <div class="txt-widget-avatar">
+                                <img src="assets/images/head-of-clinic.jpg" alt="testimonial-avatar">
+                            </div>
+
+                            <!-- Data -->
+                            <div class="txt-widget-data">
+                                <h5 class="h5-md steelblue-color">Dr. Jonathan Barnes</h5>
+                                <span>Chief Medical Officer, Founder</span>
+                                <p class="blue-color">1-800-1234-567</p>
+                            </div>
+                        </div>
+                        <!-- End Head of Clinic -->
+                        <!-- Text -->
+                        <p class="p-sm">An enim nullam tempor sapien at gravida donec pretium ipsum porta justo integer at odiovelna vitae auctor integer congue magna purus
+                        </p>
+                        <!-- Button -->
+                        <a href="" class="btn btn-blue blue-hover">Learn More</a>
+                    </div>
+                    <!-- END TEXT WIDGET -->
+                    <!-- SIDEBAR TABLE -->
+                    <div class="sidebar-table blue-table sidebar-div mb-50">
+
+                        <!-- Title -->
+                        <h5 class="h5-md">Working Time</h5>
+
+                        <!-- Text -->
+                        <p class="p-sm">Porta semper lacus cursus, feugiat primis ultrice ligula risus auctor at tempus feugiat dolor lacinia cursus nulla vitae massa
+                        </p>
+
+                        <!-- Table -->
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Mon – Wed</td>
+                                    <td> - </td>
+                                    <td class="text-right">9:00 AM - 7:00 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday</td>
+                                    <td> - </td>
+                                    <td class="text-right">9:00 AM - 6:30 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday</td>
+                                    <td> - </td>
+                                    <td class="text-right">9:00 AM - 6:00 PM</td>
+                                </tr>
+                                <tr class="last-tr">
+                                    <td>Sun - Sun</td>
+                                    <td>-</td>
+                                    <td class="text-right">CLOSED</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- Title -->
+                        <h5 class="h5-xs">Need a personal health plan?</h5>
+                        <!-- Text -->
+                        <p class="p-sm">Porta semper lacus cursus, and feugiat primis ultrice ligula at risus auctor</p>
+                    </div>
+                    <!-- END SIDEBAR TABLE -->
+                </aside>
+                <!-- END SIDEBAR -->
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- End container -->
+    </section>
+    <!--banner end-->
+
+    <!--footer-->
+    <section class="footer">
+        <div class="container">
+            <!-- FOOTER CONTENT -->
+            <div class="row">
+                <!-- FOOTER INFO -->
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <div class="footer-info mb-40">
+                        <!-- Footer Logo -->
+                        <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 80  pixels) -->
+                        <img src="assets/images/footer-logo-white.png" alt="footer-logo" width="180" height="40">
+                        <!-- Text -->
+                        <p class="p-sm mt-20">The latest clinical sapien pregnant any time until the door or just for itself but Velnus author Planning
+                        </p>
+                        <!-- Social Icons -->
+                        <div class="footer-socials-links mt-20">
+                            <ul class="foo-socials text-center clearfix">
+                                <li><a href="#" class="ico-facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#" class="ico-twitter"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" class="ico-google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#" class="ico-tumblr"><i class="fab fa-tumblr"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- FOOTER CONTACTS -->
+                <div class="col-md-6 col-lg-3  col-sm-6">
+                    <div class="footer-box mb-40">
+                        <!-- Title -->
+                        <h5 class="h5-xs">Our Location</h5>
+                        <!-- Address -->
+                        <p>121 King Street, Melbourne,</p>
+                        <p>Victoria 3000 Australia</p>
+                        <!-- Email -->
+                        <p class="foo-email mt-20">E: <a href="#">hello@yourdomain.com</a></p>
+                        <!-- Phone -->
+                        <p>P: +12 9 8765 4321</p>
+                    </div>
+                </div>
+                <!-- FOOTER WORKING HOURS -->
+                <div class="col-md-6 col-lg-3  col-sm-6">
+                    <div class="footer-box mb-40">
+                        <!-- Title -->
+                        <h5 class="h5-xs">Working Time</h5>
+                        <!-- Working Hours -->
+                        <p class="p-sm">Mon - Wed - <span>9:00 AM - 7:00 PM</span></p>
+                        <p class="p-sm">Thursday - <span>9:00 AM - 6:30 PM</span></p>
+                        <p class="p-sm">Friday - <span>9:00 AM - 6:00 PM</span></p>
+                        <p class="p-sm">Sat - Sun - <span>Closed</span></p>
+                    </div>
+                </div>
+                <!-- FOOTER PHONE NUMBER -->
+                <div class="col-md-6 col-lg-3  col-sm-6">
+                    <div class="footer-box mb-40">
+                        <!-- Title -->
+                        <h5 class="h5-xs">Emergency Cases</h5>
+                        <!-- Footer List -->
+                        <h5 class="h5-xl blue-color">1-800-123-4560</h5>
+                        <!-- Text -->
+                        <p class="p-sm mt-15">The latest clinical sapien pregnant any time until the door or just for itself but Velnus author Planning
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- END FOOTER CONTENT -->
+            <!-- FOOTER COPYRIGHT -->
+            <div class="bottom-footer">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="footer-copyright">© 2019 <span> MedService</span>. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End container -->
+    </section>
+    <!--footer end-->
+
+
+    <!--script-->
+    <script src="assets/js/jquery-3.4.0.min.js "></script>
+    <script src="assets/js/bootstrap.min.js "></script>
+    <script src="assets/js/fontawesome.min.js "></script>
+    <script src="assets/js/imagesloaded.js "></script>
+    <script src="assets/js/isotope.pkgd.min.js "></script>
+    <script src="assets/js/jquery.slicknav.min.js "></script>
+    <script src="assets/js/lightbox.min.js "></script>
+    <script src="assets/js/swiper.min.js "></script>
+    <script src="assets/js/wow.min.js "></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/custom.js "></script>
+    <script>
+        $(function() {
+            $('#menu').slicknav({
+                label: " "
+            });
+        });
+    </script>
+</body>
+
+</html>

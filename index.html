@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#00a3c8">
+    <title>Hospital Management</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!--header-->
+
+    <!--header logo-->
+    <section class="header-logo-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
+                    <div class="image-2 text-center">
+                        <svg class="animated infinite pulse delay-2s" xmlns="http://www.w3.org/2000/svg" width="128" height="116" viewBox="0 0 128 116">
+                                    <path id="cardiology" d="M64,116h-.018c-.1,0-.215,0-.343-.014l-.113-.009c-.124-.013-.225-.026-.318-.04l-.053-.009-.053-.009c-.109-.02-.192-.038-.269-.057l-.035-.009-.092-.024c-.1-.026-.211-.058-.326-.1l-.032-.013-.043-.016c-.091-.032-.184-.069-.284-.113l-.043-.018-.043-.018c-.12-.054-.232-.109-.341-.17a.107.107,0,0,1-.024-.014c-.111-.061-.225-.13-.339-.206l-.022-.014c-.122-.082-.234-.164-.34-.25l-.007-.005-.011-.009a4.8,4.8,0,0,1-.368-.329l-.007-.007-.008-.009c-.091-.091-.183-.192-.281-.307l-.069-.08-.006-.008-.009-.012c-4.8-5.967-12.193-12.45-20.016-19.314l-.024-.021c-3.428-3.007-6.972-6.117-10.45-9.314a5,5,0,1,1,6.767-7.362c3.43,3.154,7.068,6.344,10.278,9.158,6.388,5.605,12.421,10.9,17.339,16.137,4.936-5.255,10.96-10.541,17.338-16.136l.114-.1a5,5,0,1,1,6.6,7.516l-.115.1C80.1,101.672,72.7,108.162,67.9,114.134l-.017.02-.061.071-.007.009c-.091.108-.186.211-.28.306l-.007.008-.01.009c-.111.11-.235.22-.367.328l-.011.01,0,0c-.115.092-.227.174-.342.251l-.006,0-.019.012c-.114.076-.223.142-.333.2l-.01.006-.02.011c-.1.057-.216.114-.338.168l-.09.039c-.089.039-.183.076-.279.111l-.033.012-.047.017c-.107.036-.218.067-.323.1l-.129.032c-.094.023-.188.041-.267.057l-.047.008-.062.01c-.11.019-.221.031-.317.04h-.008l-.105.008c-.109.007-.225.014-.343.014H64ZM57.251,81l-.121,0a5.026,5.026,0,0,1-4.446-2.961L42.54,55.3,37.574,65.448a5,5,0,0,1-4.491,2.8H5a5,5,0,1,1,0-10H6.268C2.05,50.791,0,43.616,0,36.319,0,25.7,3.487,16.556,10.083,9.876A33.925,33.925,0,0,1,34.5,0C51.034,0,59.583,8.508,63.842,15.645c.058.1.11.183.158.265.024-.042.049-.084.073-.125l.084-.14C68.417,8.508,76.966,0,93.5,0a33.925,33.925,0,0,1,24.417,9.876C124.513,16.555,128,25.7,128,36.319c0,17.5-12.464,32.176-21.839,41.692a5,5,0,1,1-7.123-7.019C111.975,57.862,118,46.844,118,36.319,118,20.823,107.925,10,93.5,10c-9.381,0-16.307,3.529-20.586,10.489A29.036,29.036,0,0,0,68.983,31.82a5,5,0,0,1-9.968-.022,28.963,28.963,0,0,0-3.929-11.309C50.806,13.529,43.88,10,34.5,10,20.075,10,10,20.823,10,36.319c0,6.995,2.648,14.168,8.1,21.931H29.964l8.3-16.948a5.018,5.018,0,0,1,4.474-2.8h.106a5.018,5.018,0,0,1,4.478,2.962l10.216,22.9,6.505-12.867A4.984,4.984,0,0,1,68.46,48.75h.04a4.988,4.988,0,0,1,4.424,2.671l3.594,6.828H87.75a5,5,0,1,1,0,10H73.5a4.99,4.99,0,0,1-4.425-2.67l-.486-.925-6.877,13.6A4.973,4.973,0,0,1,57.251,81Z" fill="#fff"/>
+                                  </svg>
+                        <a href="#">Medi<sup>care</sup>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--header logo end-->
+    <!--header wrapper-->
+    <section id="#home" class="header-wrapper">
+        <!--nav-->
+        <section class="background">
+            <div class="content">
+                <ul id="menu" class="exo-menu">
+                    <li class="drop-down"><a href="service1.html"><i class="fa fa-cogs"></i> Services</a>
+                        <!--Drop Down-->
+                       <!--  <ul class="drop-down-ul animated fadeIn">
+                            <li class="flyout-right"><a href="service1.html">Service page</a>
+                                <li class="flyout-right"><a href="#">Stuff</a>
+                                    <ul class="animated fadeIn">
+                                        <li><a href="#">Stuff Information</a></li>
+                                        <li><a href="#">Working Hour</a></li>
+                                    </ul>
+                                </li>
+                            </li>
+
+                                <li class="flyout-left"><a href="#">Price</a>
+                                    <ul class="animated fadeIn">
+                                        <li><a href="#">Price package #1</a></li>
+                                        <li><a href="#">Price package #2</a></li>
+                                    </ul>
+                                </li>
+                        </ul> -->
+
+                    </li>
+
+                        <li><a class="" href="depament.html"><i class="fa fa-home"></i>Our Departments</a></li>
+                        <li><a href="about.html"><i class="fa fa-briefcase"></i>About</a></li>
+
+                        <li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a>
+                        </li>
+                </ul>
+            </div>
+        </section>
+        <!--nav end-->
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <!-- layer 1 -->
+                    <div class="layer-1">
+                        <h6 class="best-title "><span class="slide-icon "><i class="fas fa-layer-group "></i></span>
+                            <span class="care"> Welcome to Medi<sup>Care</sup></span></h6>
+                        <h5>Best Quality</h5>
+                        <h2 class="title">Medical treatment for your and your family</h2>
+                    </div>
+                    <!-- layer 2 -->
+                    <!-- layer 3 -->
+                    <div class="layer-3 ">
+                        <a href="contact.html" class="my-btn button-btn ">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 hidden-xs">
+                    <div class="slide-images">
+                        <div class="top-image">
+                            <img src="assets/images/image-02.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--header wrapper end-->
+    <!--header end-->
+
+    <!--services wrapper-->
+    <section class="service-wrapper">
+        <div class="container ">
+            <div class="row ">
+                <div class="title-block col-md-12 col-sm-6 col-lg-4">
+                    <div class="inner-box">
+                        <div class=" sec-title ">
+                            <span class="heading ">Services</span>
+                            <h2>Our Services</h2>
+                        </div>
+                    </div>
+                </div>
+                <!--Feature block-->
+                <div class=" feature-block-two col-md-6 col-sm-6 col-lg-4">
+                    <div class="inner-box">
+                        <div class="icon-box "><span class=" icon fas fa-procedures"></span></div>
+                        <h4><a href="# ">Bed</a></h4>
+                        <div class="text ">250 Bed</div>
+                    </div>
+                </div>
+                <!--second-->
+                <div class=" feature-block-two col-md-6 col-sm-6 col-lg-4">
+                    <div class="inner-box">
+                        <div class=" icon-box "><span class="icon fab fa-openid "></span></div>
+                        <h4><a href="# ">open and close</a></h4>
+                        <div class="text ">24/7 services</div>
+                    </div>
+                </div>
+                <!--third-->
+                <div class=" feature-block-two col-md-6 col-sm-6 col-lg-4">
+                    <div class="inner-box">
+                        <div class="icon-box "><span class=" icon fas fa-dolly-flatbed "></span></div>
+                        <h4>
+                            <a href="# ">Modular Ot</a>
+                        </h4>
+                        <div class="text ">
+                            Modular Operation theatre </div>
+                    </div>
+                </div>
+                <!--fourth-->
+                <div class=" feature-block-two col-md-6 col-sm-6 col-lg-4">
+                    <div class="inner-box">
+                        <div class=" icon-box "><span class="icon fas fa-heartbeat "></span></div>
+                        <h4><a href="# ">Care Units</a></h4>
+                        <div class="text ">ICU, HDU, CCU, PCCU</div>
+                    </div>
+                </div>
+                <!--fifth-->
+                <div class=" feature-block-two col-md-6 col-sm-6 col-lg-4">
+                    <div class="inner-box">
+                        <div class="icon-box "><span class="icon fas fa-hand-holding-heart "></span></div>
+                        <h4><a href="about.html ">Digonostic</a></h4>
+                        <div class="text ">24/7 services</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="ma-bt">
+                        <a class="text-center btn-np" href="all_services.html">More Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--services-wrapper-end-->
+
+
+    <!--swipper slider-->
+    <section class="doctor-wrapper">
+        <div class="container">
+            <div class="col-md-12">
+                <h1 class="text-center">Meet The Doctors</h1>
+            </div>
+            <div class="meetthedoctor owl-carousel">
+                    <div class="item">
+                        <img src="assets/images/doctor-1.jpg" alt="">
+                        <h6>Matthew Anderson D.M.</h6>
+                        <p>Cardiology</p>
+                        <a href="meet_the_doctors.html">View More Info</a>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/doctor-2.jpg" alt="">
+                        <h6>Jonathan Barnes D.M.</h6>
+                        <p>Chief Medical Officer</p>
+                        <a href="meet_the_doctors.html">View More Info</a>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/doctor-3.jpg" alt="">
+                        <h6>Matthew Anderson D.M.</h6>
+                        <p>Cardiology</p>
+                        <a href="meet_the_doctors.html">View More Info</a>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/doctor-4.jpg" alt="">
+                        <h6>Matthew Anderson D.M.</h6>
+                        <p>Cardiology</p>
+                        <a href="meet_the_doctors.html">View More Info</a>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/doctor-6.jpg" alt="">
+                        <h6>Matthew Anderson D.M.</h6>
+                        <p>Cardiology</p>
+                        <a href="meet_the_doctors.html">View More Info</a>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/doctor-1.jpg" alt="">
+                        <h6>Matthew Anderson D.M.</h6>
+                        <p>Cardiology</p>
+                        <a href="meet_the_doctors.html">View More Info</a>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/doctor-2.jpg" alt="">
+                        <h6>Matthew Anderson D.M.</h6>
+                        <p>Cardiology</p>
+                        <a href="meet_the_doctors.html">View More Info</a>
+                    </div>
+                    <div class="item">
+                        <img src="assets/images/doctor-3.jpg" alt="">
+                        <h6>Matthew Anderson D.M.</h6>
+                        <p>Cardiology</p>
+                        <a href="meet_the_doctors.html">View More Info</a>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!--swipper slider end-->
+
+    <!--card wrapper-->
+    <section class="card-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">Our Specalist</h1>
+                </div>
+            </div>
+            <div class="row">
+                <!-- DOCTOR #1 -->
+                <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="doctor-2">
+
+                        <!-- Doctor Photo -->
+                        <div class="hover-overlay">
+                            <img class="img-fluid" src="assets/images/doctor-1.jpg" alt="doctor-foto">
+                        </div>
+
+                        <!-- Doctor Meta -->
+                        <div class="doctor-meta">
+
+                            <h5 class="h5-xs blue-color">Jonathan Barnes D.M.</h5>
+                            <span>Chief Medical Officer</span>
+
+                            <!-- Button -->
+                            <a class="btn btn-sm btn-blue blue-hover mt-15" href="specalist.html" title="">View More Info</a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END DOCTOR #1 -->
+
+
+                <!-- DOCTOR #2 -->
+                <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="doctor-2">
+
+                        <!-- Doctor Photo -->
+                        <div class="hover-overlay">
+                            <img class="img-fluid" src="assets/images/doctor-2.jpg" alt="doctor-foto">
+                        </div>
+
+                        <!-- Doctor Meta -->
+                        <div class="doctor-meta">
+
+                            <h5 class="h5-xs blue-color">Hannah Harper D.M.</h5>
+                            <span>Anesthesiologist</span>
+
+                            <!-- Button -->
+                            <a class="btn btn-sm btn-blue blue-hover mt-15" href="specalist.html" title="">View More Info</a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END DOCTOR #2 -->
+
+
+                <!-- DOCTOR #3 -->
+                <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="doctor-2">
+
+                        <!-- Doctor Photo -->
+                        <div class="hover-overlay">
+                            <img class="img-fluid" src="assets/images/doctor-3.jpg" alt="doctor-foto">
+                        </div>
+
+                        <!-- Doctor Meta -->
+                        <div class="doctor-meta">
+
+                            <h5 class="h5-xs blue-color">Matthew Anderson D.M.</h5>
+                            <span>Cardiology</span>
+
+                            <!-- Button -->
+                            <a class="btn btn-sm btn-blue blue-hover mt-15" href="specalist.html" title="">View More Info</a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END DOCTOR #3 -->
+
+
+                <!-- DOCTOR #4 -->
+                <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="doctor-2">
+
+                        <!-- Doctor Photo -->
+                        <div class="hover-overlay">
+                            <img class="img-fluid" src="assets/images/doctor-4.jpg" alt="doctor-foto">
+                        </div>
+
+                        <!-- Doctor Meta -->
+                        <div class="doctor-meta">
+
+                            <h5 class="h5-xs blue-color">Megan Coleman D.M.</h5>
+                            <span>Neurosurgeon</span>
+
+                            <!-- Button -->
+                            <a class="btn btn-sm btn-blue blue-hover mt-15" href="specalist.html" title="">View More Info</a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END DOCTOR #4 -->
+
+
+                <!-- DOCTOR #5 -->
+                <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="doctor-2">
+
+                        <!-- Doctor Photo -->
+                        <div class="hover-overlay">
+                            <img class="img-fluid" src="assets/images/doctor-5.jpg" alt="doctor-foto">
+                        </div>
+
+                        <!-- Doctor Meta -->
+                        <div class="doctor-meta">
+
+                            <h5 class="h5-xs blue-color">Robert Peterson D.M.</h5>
+                            <span>Allergist</span>
+
+                            <!-- Button -->
+                            <a class="btn btn-sm btn-blue blue-hover mt-15" href="specalist.html" title="">View More Info</a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END DOCTOR #5 -->
+
+
+                <!-- DOCTOR #6 -->
+                <div class="col-md-6 col-lg-4 col-sm-6">
+                    <div class="doctor-2">
+
+                        <!-- Doctor Photo -->
+                        <div class="hover-overlay">
+                            <img class="img-fluid" src="assets/images/doctor-6.jpg" alt="doctor-foto">
+                        </div>
+
+                        <!-- Doctor Meta -->
+                        <div class="doctor-meta">
+
+                            <h5 class="h5-xs blue-color">Joshua Elledge D.M.</h5>
+                            <span>Orthopaedics</span>
+
+                            <!-- Button -->
+                            <a class="btn btn-sm btn-blue blue-hover mt-15" href="specalist.html" title="">View More Info</a>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END DOCTOR #6 -->
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- End container -->
+
+    </section>
+    <!--card wrapper end-->
+
+    <!--department wrapper-->
+    <section class="department-wrapper">
+        <div class="container">
+            <!-- SECTION TITLE -->
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1 section-title">
+
+                    <!-- Title 	-->
+                    <h3 class="h3-md steelblue-color text-center">Choose Department</h3>
+
+                    <!-- Text -->
+                    <p class="text-center">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero at tempus, blandit posuere ligula varius congue cursus porta feugiat
+                    </p>
+
+                </div>
+            </div>
+
+
+            <div class="row">
+                <!-- SERVICE BOX #1 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="sbox-2">
+                        <a href="#">
+
+                            <!-- Icon  -->
+                            <div class="sbox-2-icon icon-xl">
+                                <span><img src="assets/images/stethoscope(2).svg" alt=""></span>
+                            </div>
+
+                            <!-- Title -->
+                            <h5 class="h5-sm sbox-2-title steelblue-color">Pediatrics</h5>
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- SERVICE BOX #2 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="sbox-2">
+                        <a href="">
+
+                            <!-- Icon  -->
+                            <div class="sbox-2-icon icon-xl">
+                                <span><img src="assets/images/brain-and-head.svg" alt=""></span>
+                            </div>
+
+                            <!-- Title -->
+                            <h5 class="h5-sm sbox-2-title steelblue-color">Neurology</h5>
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- SERVICE BOX #3 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="sbox-2">
+                        <a href="">
+
+                            <!-- Icon  -->
+                            <div class="sbox-2-icon icon-xl">
+                                <span><img src="assets/images/blood.svg" alt=""></span>
+                            </div>
+
+                            <!-- Title -->
+                            <h5 class="h5-sm sbox-2-title steelblue-color">Haematology</h5>
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- SERVICE BOX #4 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="sbox-2">
+                        <a href="">
+
+                            <!-- Icon  -->
+                            <div class="sbox-2-icon icon-xl">
+                                <span><img src="assets/images/lungs.svg" alt=""></span>
+                            </div>
+
+                            <!-- Title -->
+                            <h5 class="h5-sm sbox-2-title steelblue-color">X-Ray Diagnostic</h5>
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- SERVICE BOX #5 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="sbox-2">
+                        <a href="">
+
+                            <!-- Icon  -->
+                            <div class="sbox-2-icon icon-xl">
+                                <span><img src="assets/images/cardiogram(2).svg" alt=""></span>
+                            </div>
+
+                            <!-- Title -->
+                            <h5 class="h5-sm sbox-2-title steelblue-color">Cardiology</h5>
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- SERVICE BOX #6 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="sbox-2">
+                        <a href="">
+
+                            <!-- Icon  -->
+                            <div class="sbox-2-icon icon-xl">
+                                <span><img src="assets/images/mri.svg" alt=""></span>
+                            </div>
+
+                            <!-- Title -->
+                            <h5 class="h5-sm sbox-2-title steelblue-color">MRI</h5>
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- SERVICE BOX #7 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="sbox-2">
+                        <a href="">
+
+                            <!-- Icon  -->
+                            <div class="sbox-2-icon icon-xl">
+                                <span><img src="assets/images/microscope.svg" alt=""></span>
+                            </div>
+
+                            <!-- Title -->
+                            <h5 class="h5-sm sbox-2-title steelblue-color">Laboratory Services</h5>
+
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SERVICE BOX #8 -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="sbox-2">
+                        <a href="">
+
+                            <!-- Icon  -->
+                            <div class="sbox-2-icon icon-xl">
+                                <span><img src="assets/images/ambulance.svg" alt=""></span>
+                            </div>
+
+                            <!-- Title -->
+                            <h5 class="h5-sm sbox-2-title steelblue-color">Emergency Help</h5>
+
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- End row -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="more">
+                        <a href="depament.html">More Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End container -->
+    </section>
+    <!--department wrapper end -->
+
+    <!--counter wrapper-->
+    <section class="counter-wrapper">
+        <div class="container white-color">
+            <div class="row">
+                <!-- STATISTIC BLOCK #1 -->
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <div class="statistic-block icon-lg">
+
+                        <!-- Icon  -->
+                        <div class="icon text-center">
+                            <span><img src="assets/images/cardiogram(2).svg" alt=""></span>
+                        </div>
+
+                        <!-- Text -->
+                        <h5 class="statistic-number">9,<span class="count-element">632</span></h5>
+                        <p class="txt-400">Happy Patients</p>
+                    </div>
+                </div>
+
+
+                <!-- STATISTIC BLOCK #2 -->
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <div class="statistic-block icon-lg">
+                        <!-- Icon  -->
+                        <div class="icon">
+                            <span><img src="assets/images/doctor.svg" alt=""></span>
+                        </div>
+                        <!-- Text -->
+                        <h5 class="statistic-number"><span class="count-element">178</span></h5>
+                        <p class="txt-400">Qualified Doctors</p>
+
+                    </div>
+                </div>
+
+                <!-- STATISTIC BLOCK #3 -->
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <div class="statistic-block icon-lg">
+
+                        <!-- Icon  -->
+                        <div class="icon">
+                            <span><img src="assets/images/patient.svg" alt=""></span>
+                        </div>
+                        <!-- Text -->
+                        <h5 class="statistic-number"><span class="count-element">864</span></h5>
+                        <p class="txt-400">Clinic Rooms</p>
+
+                    </div>
+                </div>
+
+                <!-- STATISTIC BLOCK #4 -->
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <div class="statistic-block icon-lg">
+
+                        <!-- Icon  -->
+                        <div class="icon icon-1">
+                            <span><img src="assets/images/placeholder.svg" alt=""></span>
+                        </div>
+
+                        <!-- Text -->
+                        <h5 class="statistic-number"><span class="count-element">473</span></h5>
+                        <p class="txt-400">Local Partners</p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- End container -->
+
+    </section>
+    <!--counter wrapper end-->
+
+    <!--portfolio section-->
+    <section class="space-3 space-adjust" id="portfolio">
+        <div class="section-title text-center ">
+            <h2 class="title ">Our Gallery</h2>
+        </div>
+        <!--portfolio-->
+        <div class="container ">
+            <div class="text-center ">
+                <ul class="portfolio-filter ">
+                    <li class="active "><a href="# " data-filter="* "> All</a></li>
+                    <li><a href="# " data-filter=".cat1 ">Hospital</a></li>
+                    <li><a href="# " data-filter=".cat2 ">Doctor</a></li>
+                    <li><a href="# " data-filter=".cat3 ">Machine</a></li>
+                    <li><a href="# " data-filter=".cat5 ">Services</a></li>
+                </ul>
+            </div>
+
+            <div class="row  portfolio portfolio-gallery column-3 gutter ">
+                <!--portfolio grid option col-2 - col-6 -->
+
+                <div class="portfolio-item cat1 cat3 col-md-4 col-sm-6 col-lg-4 col-12">
+                    <a data-lightbox="image-1 " data-title="My caption " href="assets/images/img1.png " class="thumb popup-gallery " title="We are creative ">
+                        <img src="assets/images/img1.png" alt=" ">
+                        <div class="portfolio-hover ">
+                            <div class="portfolio-description ">
+                                <h4 class="mb-1 ">masonry view</h4>
+                                <p>Lightbox</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="portfolio-item cat2 cat4  col-md-4 col-sm-6 col-lg-4 col-12">
+                    <a data-lightbox="image-1 " data-title="My caption " href="assets/images/img1.png " class="thumb popup-gallery " title="We are creative ">
+                        <img src="assets/images/img2.png " alt=" ">
+                        <div class="portfolio-hover ">
+                            <div class="portfolio-description ">
+                                <h4 class="mb-1 ">Even grids</h4>
+                                <p>Lightbox</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="portfolio-item cat1 cat5  col-md-4 col-sm-6 col-lg-4 col-12">
+                    <a data-lightbox="image-1 " data-title="My caption " href="assets/images/img3.jpg " class="thumb popup-gallery " title="We are creative ">
+                        <img src="assets/images/img3.jpg " alt=" ">
+                        <div class="portfolio-hover ">
+                            <div class="portfolio-description ">
+                                <h4 class="mb-1 ">Minimal design</h4>
+                                <p>Lightbox</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="portfolio-item cat3 col-md-4 col-sm-6 col-lg-4 col-12">
+                    <a data-lightbox="image-1 " data-title="My caption " href="assets/images/img4.jpg " class="thumb popup-gallery " title="We are creative ">
+                        <img src="assets/images/img4.jpg " alt=" ">
+                        <div class="portfolio-hover ">
+                            <div class="portfolio-description ">
+                                <h4 class="mb-1 ">Creative Looks</h4>
+                                <p>Lightbox</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="portfolio-item cat1 cat2 col-md-4 col-sm-6 col-lg-4 col-12">
+                    <a data-lightbox="image-1 " data-title="My caption " href="assets/images/img5.jpg " class="thumb popup-gallery " title="We are creative ">
+                        <img src="assets/images/img5.jpg " alt=" ">
+                        <div class="portfolio-hover ">
+                            <div class="portfolio-description ">
+                                <h4 class="mb-1 ">Fully Responsive</h4>
+                                <p>Lightbox</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="portfolio-item cat3 cat4 col-md-4 col-sm-6 col-lg-4 col-12">
+                    <a data-lightbox="image-1 " data-title="My caption " href="assets/images/img6.jpg " class="thumb popup-gallery " title="We are creative ">
+                        <img src="assets/images/img6.jpg " alt=" ">
+                        <div class="portfolio-hover ">
+                            <div class="portfolio-description ">
+                                <h4 class="mb-1 ">Clean Code</h4>
+                                <p>Lightbox</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="portfolio-item cat1 cat5 col-md-4 col-sm-6 col-lg-4 col-12">
+                    <a data-lightbox="image-1 " data-title="My caption " href="assets/images/img2.png " class="thumb popup-gallery " title="We are creative ">
+                        <img src="assets/images/kk.jpg" alt=" ">
+                        <div class="portfolio-hover ">
+                            <div class="portfolio-description ">
+                                <h4 class="mb-1 ">Bootstrap 3+</h4>
+                                <p>Lightbox</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="portfolio-item cat2 cat3 col-md-4 col-sm-6 col-lg-4 col-12">
+                    <a data-lightbox="image-1 " data-title="My caption " href="assets/images/8.jpg" class="thumb popup-gallery " title="We are creative ">
+                        <img src="assets/images/8.jpg" alt=" ">
+                        <div class="portfolio-hover ">
+                            <div class="portfolio-description ">
+                                <h4 class="mb-1 ">Nice Blogging</h4>
+                                <p>Lightbox</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="portfolio-item cat1 cat4 col-md-4 col-sm-6 col-lg-4 col-12">
+                    <a data-lightbox="image-1 " data-title="My caption " href="assets/images/9.jpg " class="thumb popup-gallery " title="We are creative ">
+                        <img src="assets/images/9.jpg " alt=" ">
+                        <div class="portfolio-hover ">
+                            <div class="portfolio-description ">
+                                <h4 class="mb-1 ">Easy to customize</h4>
+                                <p>Lightbox</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+        <!--portfolio-->
+    </section>
+
+    <!--latest news-->
+    <section class="latest-wrapper">
+        <div class="container">
+            <!-- SECTION TITLE -->
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1 section-title">
+
+                    <!-- Title 	-->
+                    <h3 class="h3-md steelblue-color text-center">Our Stories, Tips &amp; Latest News</h3>
+
+                    <!-- Text -->
+                    <p class="text-center">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero at tempus, blandit posuere ligula varius congue cursus porta feugiat
+                    </p>
+
+                </div>
+            </div>
+            <!-- BLOG POSTS HOLDER -->
+            <div class="row justify-content-center">
+                <!-- BLOG POST #1 -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="blog-post">
+
+                        <!-- BLOG POST IMAGE -->
+                        <div class="blog-post-img">
+                            <img class="img-fluid" src="assets/images/post-1-img.jpg" alt="blog-post-image">
+                        </div>
+
+                        <!-- BLOG POST TITLE -->
+                        <div class="blog-post-txt">
+
+                            <!-- Post Title -->
+                            <h5 class="h5-sm steelblue-color"><a href="#">5 Benefits Of Integrative Medicine</a></h5>
+
+                            <!-- Post Data -->
+                            <span>May 03, 2019 by <span>Dr.Jeremy Smith</span></span>
+
+                            <!-- Post Text -->
+                            <p>Quaerat neque purus ipsum neque dolor primis libero tempus impedit tempor blandit sapien at gravida donec ipsum, at porta justo...
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END  BLOG POST #1 -->
+
+
+                <!-- BLOG POST #2 -->
+                <div class="col-lg-4  col-sm-6">
+                    <div class="blog-post">
+
+                        <!-- BLOG POST IMAGE -->
+                        <div class="blog-post-img">
+                            <img class="img-fluid" src="assets/images/post-2-img.jpg" alt="blog-post-image">
+                        </div>
+
+                        <!-- BLOG POST TEXT -->
+                        <div class="blog-post-txt">
+
+                            <!-- Post Title -->
+                            <h5 class="h5-sm steelblue-color"><a href="#">Your Health Is In Your Hands</a></h5>
+
+                            <!-- Post Data -->
+                            <span>Apr 28, 2019 by <span>Dr.Jonathan Barnes</span></span>
+
+                            <!-- Post Text -->
+                            <p>Quaerat neque purus ipsum neque dolor primis libero tempus impedit tempor blandit sapien at gravida donec ipsum, at porta justo...
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END  BLOG POST #2 -->
+
+
+                <!-- BLOG POST #3 -->
+                <div class="col-lg-4  col-sm-6">
+                    <div class="blog-post">
+
+                        <!-- BLOG POST IMAGE -->
+                        <div class="blog-post-img">
+                            <img class="img-fluid" src="assets/images/post-3-img.jpg" alt="blog-post-image">
+                        </div>
+
+                        <!-- BLOG POST TEXT -->
+                        <div class="blog-post-txt">
+
+                            <!-- Post Title -->
+                            <h5 class="h5-sm steelblue-color"><a href="#">How Weather Impacts Your Health</a></h5>
+
+                            <!-- Post Data -->
+                            <span>Apr 17, 2019 by <span>Dr.Megan Coleman</span></span>
+
+                            <!-- Post Text -->
+                            <p>Quaerat neque purus ipsum neque dolor primis libero tempus impedit tempor blandit sapien at gravida donec ipsum, at porta justo...
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END  BLOG POST #3 -->
+
+
+            </div>
+            <!-- END BLOG POSTS HOLDER -->
+
+
+        </div>
+        <!-- End container -->
+
+    </section>
+    <!--latest news end-->
+
+
+    <!--about wrapper-->
+    <section class="about-wrapper">
+        <div class="container">
+            <div class="abox-2-holder">
+                <div class="row">
+                    <!-- ABOUT BOX #1 -->
+                    <div class="col-md-12 col-lg-4">
+                        <div class="abox-2">
+                            <!-- Title -->
+                            <h5 class="h5-md steelblue-color">Opening Hours</h5>
+                            <!-- Table -->
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Mon – Wed</td>
+                                        <td> - </td>
+                                        <td class="text-right">9:00 AM - 7:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Thursday</td>
+                                        <td> - </td>
+                                        <td class="text-right">9:00 AM - 6:30 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Friday</td>
+                                        <td> - </td>
+                                        <td class="text-right">9:00 AM - 6:00 PM</td>
+                                    </tr>
+                                    <tr class="last-tr">
+                                        <td>Sun - Sun</td>
+                                        <td>-</td>
+                                        <td class="text-right">CLOSED</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- ABOUT BOX #2 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="abox-2">
+                            <h5 class="h5-md steelblue-color">Doctors Timetable</h5>
+                            <!-- Text -->
+                            <p>Or do the same with great grief that can be at a great life, and purus sapien augue iaculis purus tempor particular Macro himself and the very great
+                            </p>
+                            <!-- Button -->
+                            <a href="timetable.html" class="btn btn-sm btn-blue blue-hover mt-25">View Timetable</a>
+                        </div>
+                    </div>
+                    <!-- ABOUT BOX #3 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="abox-2">
+                            <!-- Title -->
+                            <h5 class="h5-md steelblue-color">Emergency Cases</h5>
+                            <!-- Text -->
+                            <h4 class="h4-sm emergency-call blue-color"><i class="fas fa-phone"></i> 1-800-123-4560</h4>
+                            <p class="mt-20">Or do the same with great grief that can be at a great life, and purus sapien augue iaculis purus tempor particular Macro himself and the very great
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End row -->
+            </div>
+        </div>
+        <!-- End container -->
+    </section>
+    <!--about wrapper end-->
+
+
+    <!--footer-->
+    <section class="footer">
+        <div class="container">
+            <!-- FOOTER CONTENT -->
+            <div class="row justify-content-center">
+                <!-- FOOTER INFO -->
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <div class="footer-info mb-40">
+                        <!-- Footer Logo -->
+                        <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 80  pixels) -->
+                        <img src="assets/images/footer-logo-white.png" alt="footer-logo" width="180" height="40">
+                        <!-- Text -->
+                        <p class="p-sm mt-20">The latest clinical sapien pregnant any time until the door or just for itself but Velnus author Planning
+                        </p>
+                        <!-- Social Icons -->
+                        <div class="footer-socials-links mt-20">
+                            <ul class="foo-socials text-center clearfix">
+                                <li><a href="#" class="ico-facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#" class="ico-twitter"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" class="ico-google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#" class="ico-tumblr"><i class="fab fa-tumblr"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- FOOTER CONTACTS -->
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <div class="footer-box mb-40">
+                        <!-- Title -->
+                        <h5 class="h5-xs">Our Location</h5>
+                        <!-- Address -->
+                        <p>121 King Street, Melbourne,</p>
+                        <p>Victoria 3000 Australia</p>
+                        <!-- Email -->
+                        <p class="foo-email mt-20">E: <a href="#">hello@yourdomain.com</a></p>
+                        <!-- Phone -->
+                        <p>P: +12 9 8765 4321</p>
+                    </div>
+                </div>
+                <!-- FOOTER WORKING HOURS -->
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <div class="footer-box mb-40">
+                        <!-- Title -->
+                        <h5 class="h5-xs">Working Time</h5>
+                        <!-- Working Hours -->
+                        <p class="p-sm">Mon - Wed - <span>9:00 AM - 7:00 PM</span></p>
+                        <p class="p-sm">Thursday - <span>9:00 AM - 6:30 PM</span></p>
+                        <p class="p-sm">Friday - <span>9:00 AM - 6:00 PM</span></p>
+                        <p class="p-sm">Sat - Sun - <span>Closed</span></p>
+                    </div>
+                </div>
+                <!-- FOOTER PHONE NUMBER -->
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <div class="footer-box mb-40">
+                        <!-- Title -->
+                        <h5 class="h5-xs">Emergency Cases</h5>
+                        <!-- Footer List -->
+                        <h5 class="h5-xl blue-color">1-800-123-4560</h5>
+                        <!-- Text -->
+                        <p class="p-sm mt-15">The latest clinical sapien pregnant any time until the door or just for itself but Velnus author Planning
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- END FOOTER CONTENT -->
+            <!-- FOOTER COPYRIGHT -->
+            <div class="bottom-footer">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="footer-copyright">© 2019 <span> MedService</span>. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End container -->
+    </section>
+    <!--footer end-->
+
+
+    <!--script-->
+    <script src="assets/js/jquery-3.4.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <script src="assets/js/lightbox.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        $('.meetthedoctor').owlCarousel({
+            loop:true,
+            margin:10,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true
+                },
+                600:{
+                    items:2,
+                    nav:false
+                },
+                1000:{
+                    items:3,
+                    nav:true,
+                    loop:false
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
